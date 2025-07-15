@@ -91,19 +91,19 @@ button img {
 
 .death {
     position: absolute;
-    width: 80px;
+    width: 70px;
     transform: translate(-100px, -350px);
 }
 
 .money {
     position: absolute;
-    width: 50px;
+    width: 60px;
     transform: translate(50px, -100px);
 }
 
 .arrow {
     position: absolute;
-    width: 50px;
+    width: 30px;
     transform: translate(20px, -400px);
 }
 

@@ -113,7 +113,7 @@ function game() {
             death.style.opacity = 0.5;
             deathInfo.visible = false;
 
-            speed += 10;
+            speed += 7;
 
             arrowInfo.ignoreAppereance = true;
             deathInfo.ignoreAppereance = true;
@@ -121,7 +121,7 @@ function game() {
             setTimeout(() => {
                 death.style.opacity = 1;
 
-                speed -+ 10;
+                speed -= 7;
 
                 setTimeout(() => {
                     deathInfo.visible = true;
